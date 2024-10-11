@@ -2,7 +2,7 @@
 
 ## Description
 
-`convert_math_typora.zsh` is a shell script designed to process Markdown files and convert mathematical formulas to be compatible with [Typora](https://typora.io/). Specifically, it replaces `\[ ... \]` with `$ ... $` within Markdown tables, as Typora does not render display math inside tables correctly. The script leaves display math outside of tables untouched.
+`convert_math_typora.zsh` is a shell script designed to process Markdown files and convert mathematical formulas to be compatible with [Typora](https://typora.io/). Specifically, it replaces `\[ ... \]` with `$ ... $` within Markdown tables. The script leaves display math outside of tables untouched.
 
 This script was originally designed to take the LaTeX integration from ChatGPT and convert it to Typora-friendly formatting.
 
